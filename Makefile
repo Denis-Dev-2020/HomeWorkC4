@@ -1,6 +1,6 @@
 CFLAGS = -O0 -fPIC -g -Wall -Werror
 CC = gcc
-all : Main Exe
+all : Main Exe clean
 Main : frequency.c
 	$(CC) $(CFLAGS)  frequency.c -g -o frequency
 Exe : 
